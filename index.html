@@ -3,47 +3,31 @@
 <html>
 
 <head>
-  <title>Learning HTML</title>
+  <title>HTML Forms</title>
 </head>
 
 <body>
-  <div>
-    <p>Hello, <strong>ninjas!</strong></p>
-    <p>My <small>first</small> web <em>page!</em></p>
-    <a href="http://www.thenetninja.co.uk">the net ninja website</a>
-    <a href="about.html">about page</a>
-  </div>
+  <h1>HTML Forms</h1>
 
-  <div>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
-  </div>
+  <form>
+    <label for="username">enter username:</label>
+    <input type="text" id="username">
+    <br><br>
+    <label for="email">enter email:</label>
+    <input type="email" id="email">
+    <br><br>
+    <label for="password">password:</label>
+    <input type="password" id="password">
 
-  <div>
-    <ul>
-      <li>Yoshi</li>
-      <li>Luigi</li>
-      <li>Toad</li>
-    </ul>
-  </div>
+    <p>Select your age:</p>
 
-  <span>I am a <br> sapn tag</span>
-
-  <hr>
-
-  <img
-    src="https://image.freepik.com/fotos-gratis/feliz-americano-africano-mulher-jovem-toothy-sorrindo_23-2148183284.jpg"
-    alt="mulher sorrindo">
-
-  <blockquote cite="http://www.oscarwildesite.com">
-    We are all in the gutter, but some of us are looking at the stars
-  </blockquote>
-  
-  <p style="color: orangered;">style me :)</p>
+    <input type="radio" name="age" value="0-25" id="option-1">
+    <label for="option-1">0-25</label>
+    <input type="radio" name="age" value="26-50" id="option-2">
+    <label for="option-2">26-50</label>
+    <input type="radio" name="age" value="51+" id="option-3">
+    <label for="option-3">51+</label>
+  </form>
 </body>
 
 </html>
