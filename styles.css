@@ -1,3 +1,35 @@
-p.error {
+/* p.error {
   color: red;
+}
+
+p.success {
+  color: #4fdb4f;
+}
+
+p.success.feedback {
+  border: 1px dashed #4fdb4f;
+}
+
+div#content {
+  background-color: #ebebeb;
+  padding: 20px;
+} */
+
+/* div .error {
+  color: red;
+} */
+
+a[href*="thenetninja"] {
+  background-color: #3dd13d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a[href*="google"] {
+  color: black;
+  background-color:  pink;
+  text-decoration: none;
+  border: 2px dashed darkgreen;
 }
