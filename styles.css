@@ -18,7 +18,7 @@ div#content {
 /* div .error {
   color: red;
 } */
-
+/* 
 a[href*="thenetninja"] {
   background-color: #3dd13d;
   color: white;
@@ -27,9 +27,30 @@ a[href*="thenetninja"] {
   text-transform: uppercase;
 }
 
-a[href*="google"] {
+a[href$=".com"] {
   color: black;
   background-color:  pink;
   text-decoration: none;
   border: 2px dashed darkgreen;
+} */
+
+div {
+  color: lightcoral;
+  border: 1px solid grey;
+  margin: 40px;
+  font-weight: bold;
+}
+
+div p {
+  border: inherit;
+  margin:  inherit;
+  color: crimson;
+}
+
+.success {
+  color: pink;
+}
+
+p {
+  color: orangered;
 }
